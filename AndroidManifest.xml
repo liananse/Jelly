@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.medialab.jelly"
+    android:versionCode="1"
+    android:versionName="0.9" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <permission
+        android:name="com.medialab.jelly.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signatureOrSystem" />
+    <!-- 这里com.xiaomi.mipushdemo改成app的包名 -->
+    <uses-permission android:name="com.medialab.jelly.permission.MIPUSH_RECEIVE" />
+    <!-- 这里com.xiaomi.mipushdemo改成app的包名 -->
+
+    <application
+        android:name=".JellyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Jelly umeng appkey -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5391263b56240b01a1073a16" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="neice" />
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="RoAGm46COzwnohQGU3OKjLUG" />
+
+        <activity
+            android:name="com.medialab.jelly.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActivityTranslucentTheme"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".LoginAndRegisterActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AskActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LinkChooserActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".SearchImageActivity" >
+        </activity>
+        
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <!-- 小米推送 push start -->
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled="true"
+            android:process=":push" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported="false"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.medialab.jelly.push.XiaoMiMessageReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 小米推送 push end -->
+    </application>
+
+</manifest>

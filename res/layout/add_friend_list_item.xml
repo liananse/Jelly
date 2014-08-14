@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/friend_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="28dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <com.medialab.jelly.util.view.SquareRoundedImageView
+            xmlns:ml="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/friend_header"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher"
+            ml:border_color="@color/white"
+            ml:border_width="1dp"
+            ml:oval="true" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/friend_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="#b9b9b9"
+                android:textSize="14sp " />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+            <TextView
+                android:id="@+id/friend_came_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#b9b9b9"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/friend_operate"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/add_friend_btn_bg"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

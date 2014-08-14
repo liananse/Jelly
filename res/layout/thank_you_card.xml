@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/hollowed_card_overlay" >
+
+    <com.medialab.jelly.util.RoundedImageView
+        android:id="@+id/thank_you_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        custom:corner_radius="@dimen/card_top_background_radius" />
+
+    <com.medialab.jelly.util.view.CustomTextView
+        android:id="@+id/thank_you_from_text_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/thank_you_text_spacing_side"
+        android:paddingTop="@dimen/thank_you_text_spacing_top"
+        android:textColor="@color/thank_you_card_text_color"
+        android:textSize="@dimen/thank_you_card_text_size" />
+
+    <com.medialab.jelly.util.view.CustomTextView
+        android:id="@+id/thank_you_to_text_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="@dimen/thank_you_text_spacing_side"
+        android:paddingTop="@dimen/thank_you_text_spacing_top"
+        android:textColor="@color/thank_you_card_text_color"
+        android:textSize="@dimen/thank_you_card_text_size" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/question_card_button_row_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/card_bottom_background"
+        android:orientation="horizontal"
+        android:showDividers="none" >
+
+        <Button
+            android:id="@+id/view_answer_button"
+            style="@style/QuestionCardButtonStyle"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="@string/view_answer_button_text" />
+
+        <Button
+            android:id="@+id/share_button"
+            style="@style/QuestionCardButtonStyle"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:visibility="gone"
+            android:text="@string/share_button_text" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stock_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/link_chooser_title"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/stock_image_text"
+            style="@style/LinkChooserEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/search_icon"
+            android:drawablePadding="@dimen/link_chooser_search_padding"
+            android:hint="@string/compose_question_search_image" />
+
+        <TextView
+            android:id="@+id/stock_image_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/link_chooser_horizontal_margin"
+            android:text="@string/link_chooser_search"
+            android:textColor="@color/top_nav_modal_text_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/link_chooser_split_line_color" />
+
+    <GridView
+        android:id="@+id/stock_image_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/link_chooser_content"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+</LinearLayout>

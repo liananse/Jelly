@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/card_bottom_background"
+    android:orientation="horizontal"
+    android:showDividers="none" >
+
+    <ToggleButton
+        android:id="@+id/good_button"
+        style="@style/QuestionCardButtonStyle"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:textColor="@color/selected_text_color_toggle" />
+
+    <Button
+        android:id="@+id/share_button"
+        style="@style/QuestionCardButtonStyle"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:text="@string/share_button_text" />
+
+</LinearLayout>

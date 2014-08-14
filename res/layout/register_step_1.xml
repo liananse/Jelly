@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/register_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="@string/login_back"
+            android:textColor="@color/top_nav_modal_text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/register_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="@string/register_title"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/register_step1_opt_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/register_mobile_et"
+            style="@style/UserNameAndPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_username"
+            android:inputType="phone" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/register_code_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_and_register_margin_top"
+                android:layout_marginLeft="@dimen/login_and_register_margin_left"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/login_and_register_margin_top"
+                android:layout_weight="1.1"
+                android:background="@drawable/username_and_password_et_bg"
+                android:gravity="left|center_vertical"
+                android:hint="@string/login_code"
+                android:inputType="number"
+                android:padding="@dimen/login_and_register_padding"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/register_get_code_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_and_register_margin_top"
+                android:layout_marginRight="@dimen/login_and_register_margin_left"
+                android:layout_marginTop="@dimen/login_and_register_margin_top"
+                android:layout_weight="1"
+                android:background="@drawable/login_and_register_btn_bg"
+                android:gravity="center"
+                android:paddingBottom="@dimen/login_and_register_padding"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="@dimen/login_and_register_padding"
+                android:singleLine="true"
+                android:text="@string/login_and_register_register_code"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/register_password_et"
+            style="@style/UserNameAndPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/register_next_btn"
+            style="@style/LoginAndRegisterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_next" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/register_step1_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_step1_opt_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/login_and_register_margin_left"
+        android:layout_marginRight="@dimen/login_and_register_margin_left"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/register_step1_tips"
+        android:textColor="@color/top_nav_modal_text_color"
+        android:textSize="12sp" />
+
+</RelativeLayout>

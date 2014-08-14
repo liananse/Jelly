@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="number_of_goods_string">
+        <item quantity="other">%d个赞</item>
+        <item quantity="zero">0个赞</item>
+        <item quantity="one">1个赞</item>
+    </plurals>
+    <plurals name="number_of_thank_you_cards">
+        <item quantity="other">%d张感谢卡</item>
+        <item quantity="zero">0张感谢卡</item>
+        <item quantity="one">1张感谢卡</item>
+    </plurals>
+    <plurals name="sliding_cards_answers_string">
+        <item quantity="other">%d个回答</item>
+        <item quantity="zero">0个回答</item>
+        <item quantity="one">1个回答</item>
+    </plurals>
+
+</resources>

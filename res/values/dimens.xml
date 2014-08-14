@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- zenghui 2014.04.28 -->
+    <dimen name="auxillary_top_bar_size">50.0dip</dimen>
+    <dimen name="browser_clear_text_icon_size">15.0dip</dimen>
+    <dimen name="browser_clear_text_view_size">26.0dip</dimen>
+    <dimen name="camera_big_icon_inset">13.0dip</dimen>
+    <dimen name="camera_big_icon_size">42.0dip</dimen>
+    <dimen name="camera_capture_button_inset">4.0dip</dimen>
+    <dimen name="camera_capture_icon_size">60.0dip</dimen>
+    <dimen name="camera_lower_view_height">50.0dip</dimen>
+    <dimen name="camera_lower_view_image_height">@dimen/social_context_image_height</dimen>
+    <dimen name="camera_lower_view_image_spacing">14.0dip</dimen>
+    <dimen name="camera_lower_view_left_padding">6.0dip</dimen>
+    <dimen name="camera_lower_view_text_height">@dimen/large_text_size</dimen>
+    <dimen name="camera_small_icon_inset">18.0dip</dimen>
+    <dimen name="camera_small_icon_size">29.0dip</dimen>
+    <dimen name="card_bottom_row_touch_extension">50.0dip</dimen>
+    <dimen name="card_left_margin">8.0dip</dimen>
+    <dimen name="card_top_background_radius">7.0dip</dimen>
+    <dimen name="card_y_bump_closed">12.0dip</dimen>
+    <dimen name="clear_text_icon_expansion">2.0dip</dimen>
+    <dimen name="clear_text_padding">2.0dip</dimen>
+    <dimen name="com_facebook_loginview_compound_drawable_padding">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_left">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">16.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_top">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_picker_place_image_size">64.0dip</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180.0dip</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100.0dip</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50.0dip</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64.0dip</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64.0dip</dimen>
+    <dimen name="detail_cards_bottom_spacing">81.0dip</dimen>
+    <dimen name="drawing_button_size">28.0dip</dimen>
+    <dimen name="drawing_left_right_padding">11.0dip</dimen>
+    <dimen name="eula_text_size">10.0dip</dimen>
+    <dimen name="extra_line_height">4.0dip</dimen>
+    <dimen name="follow_button_touch_extension">15.0dip</dimen>
+    <dimen name="image_search_cell_height">100.0dip</dimen>
+    <dimen name="junk_icon_touch_expansion">12.0dip</dimen>
+    <dimen name="large_text_size">15.0dip</dimen>
+    <dimen name="link_removal_icon_size">15.0dip</dimen>
+    <dimen name="link_removal_to_link">3.0dip</dimen>
+    <dimen name="login_description_text_size">14.0dip</dimen>
+    <dimen name="login_eula_bot_padding">16.0dip</dimen>
+    <dimen name="login_get_started_button_height">36.0dip</dimen>
+    <dimen name="login_get_started_button_width">115.0dip</dimen>
+    <dimen name="login_get_started_text_size">16.0dip</dimen>
+    <dimen name="login_section_spacing">25.0dip</dimen>
+    <dimen name="login_title_text_size">20.0dip</dimen>
+    <dimen name="medium_text_size">13.0dip</dimen>
+    <dimen name="notification_badge_height">15.0dip</dimen>
+    <dimen name="notification_divider_height">1.0dip</dimen>
+    <dimen name="notification_left_to_picture">28.0dip</dimen>
+    <dimen name="notification_main_image_size">72.0dip</dimen>
+    <dimen name="notification_main_text_size">@dimen/medium_text_size</dimen>
+    <dimen name="notification_padding">10.0dip</dimen>
+    <dimen name="notification_read_indicator_size">8.0dip</dimen>
+    <dimen name="notification_time_row_text_size">@dimen/small_text_size</dimen>
+    <dimen name="notification_triangle_popover_width">30.0dip</dimen>
+    <dimen name="nux_text_size">@dimen/medium_text_size</dimen>
+    <dimen name="progress_indicator_height">19.0dip</dimen>
+    <dimen name="question_card_button_row_height">40.0dip</dimen>
+    <dimen name="question_card_button_text_size">@dimen/large_text_size</dimen>
+    <dimen name="question_card_dog_ear_dimen">36.0dip</dimen>
+    <dimen name="question_card_main_text_bottom_padding">16.0dip</dimen>
+    <dimen name="question_card_main_text_left_right_padding">19.0dip</dimen>
+    <dimen name="question_card_main_text_size">@dimen/large_text_size</dimen>
+    <dimen name="question_card_main_text_top_padding">21.0dip</dimen>
+    <dimen name="settings_row_height">43.0dip</dimen>
+    <dimen name="settings_row_user_picture_height">35.0dip</dimen>
+    <dimen name="settings_row_user_picture_left_padding">10.0dip</dimen>
+    <dimen name="sliding_detail_view_from_top">16.0dip</dimen>
+    <dimen name="sliding_detail_view_height">19.0dip</dimen>
+    <dimen name="sliding_detail_view_width">85.0dip</dimen>
+    <dimen name="small_text_size">11.0dip</dimen>
+    <dimen name="social_connection_height">18.0dip</dimen>
+    <dimen name="social_context_icon_horizontal_spacing">8.0dip</dimen>
+    <dimen name="social_context_image_height">32.0dip</dimen>
+    <dimen name="social_context_junk_drawer_height">6.0dip</dimen>
+    <dimen name="social_context_junk_drawer_width">12.0dip</dimen>
+    <dimen name="social_context_line_1_text_height">@dimen/medium_text_size</dimen>
+    <dimen name="social_context_line_2_text_height">@dimen/small_text_size</dimen>
+    <dimen name="social_context_spacing_between_icon_and_text">11.0dip</dimen>
+    <dimen name="spinner_size">65.0dip</dimen>
+    <dimen name="swipe_down_nux_height">61.0dip</dimen>
+    <dimen name="swipe_down_nux_top_padding">9.0dip</dimen>
+    <dimen name="text_to_social_context_spacing_vertical">14.0dip</dimen>
+    <dimen name="thank_you_card_text_size">14.0dip</dimen>
+    <dimen name="thank_you_text_spacing_side">20.0dip</dimen>
+    <dimen name="thank_you_text_spacing_top">20.0dip</dimen>
+    <dimen name="top_nav_button_height">28.0dip</dimen>
+    <dimen name="top_nav_left_right_padding">28.0dip</dimen>
+    <dimen name="top_nav_touch_target_increase">19.0dip</dimen>
+    <dimen name="top_section_draw_to_link_spacing">50.0dip</dimen>
+    
+    <!-- add by zenghui 2014.04.30 -->
+    <dimen name="login_and_register_margin_left">60dp</dimen>
+    <dimen name="login_and_register_margin_top">5dp</dimen>
+    <dimen name="login_and_register_padding">10dp</dimen>
+    
+    
+    <dimen name="margin_horizontal">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_vertical">10dp</dimen>
+    
+    <dimen name="body_text_size">18sp</dimen>
+    
+    <!-- add by zenghui 2014.06.11 -->
+    <dimen name="default_action_bar_height">48dip</dimen>
+    <dimen name="default_padding">8dip</dimen>
+    <dimen name="default_margin">8dip</dimen>
+    <dimen name="padding_12dip">12dip</dimen>
+    <dimen name="padding_10dip">10dip</dimen>
+    <dimen name="border_width">1dp</dimen>
+    <!-- wangpei start -->
+    <dimen name="link_chooser_search_margin_left">60dp</dimen>
+    <dimen name="link_chooser_search_margin_top">14dp</dimen>
+    <dimen name="link_chooser_search_padding">7dp</dimen>
+    
+    <dimen name="link_chooser_horizontal_margin">14dp</dimen>
+    <!--  wangpei end -->
+</resources>

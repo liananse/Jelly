@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="15dip" />
+
+    <gradient
+        android:endColor="@color/apply_friend_btn_color"
+        android:startColor="@color/apply_friend_btn_color" />
+
+</shape>

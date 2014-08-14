@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/card_bottom_background"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="horizontal"
+    android:showDividers="none" >
+
+    <Button
+        android:id="@+id/answer_button"
+        style="@style/QuestionCardButtonStyle"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:text="@string/answer_button_text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/forward_button"
+        style="@style/QuestionCardButtonStyle"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:text="@string/forward_button_text"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/good_button"
+        style="@style/QuestionCardButtonStyle"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:textColor="@color/selected_text_color_toggle"
+        android:textStyle="bold" />
+
+</LinearLayout>

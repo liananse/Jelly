@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="answer_junk_drawer_array">
+        <item>@string/junk_drawer_report</item>
+        <item>@string/junk_drawer_low_quality_answer</item>
+    </array>
+    <array name="image_search_types_array">
+        <item>@string/image_search_gallery</item>
+        <item>@string/image_search_remote</item>
+    </array>
+    <array name="question_junk_drawer_array">
+        <item>@string/junk_drawer_report</item>
+        <item>@string/junk_drawer_low_quality_question</item>
+    </array>
+</resources>

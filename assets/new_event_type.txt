@@ -1,0 +1,1 @@
+{"result":0,"data":{"user":{"uid":100000003,"avatarName":"fff2aa47634d603a83b1596a64aaa859_100000000.jpg","accessToken":"MTAwMDAwMDAzemFxczY1MTM5OTcyNzI2NjY3Mw==","uidStr":"B5F1C48A78DD2F7BDC6171722AD8CC8B","nickName":"王增辉","mobile":"18503088863"}}}

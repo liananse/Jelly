@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">朋友帮帮忙</string>
+    <string name="xlistview_header_hint_normal">下拉可以刷新</string>
+    <string name="xlistview_header_hint_ready">松开可以刷新</string>
+    <string name="xlistview_header_hint_loading">正在加载…</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <!-- zenghui 2014.04.28 -->
+    <string name="image_search_gallery">相册</string>
+    <string name="image_search_remote">搜索</string>
+    <string name="image_search_type_picker_title">选择图片</string>
+    <string name="needy_people_multiple_string">%d people need help.</string>
+    <string name="needy_people_no_one">Feeling helpful?</string>
+    <string name="needy_people_one_help">%s needs help.</string>
+    <string name="network_down">No Network Connection</string>
+    <string name="no_notifications_bottom_line">试着回答或问一个问题吧</string>
+    <string name="no_notifications_top_line">还没有动态</string>
+    <string name="out_of_questions_invite_button_text">邀请朋友</string>
+    <string name="out_of_questions_invite_chooser_title">邀请朋友使用</string>
+    <string name="out_of_questions_invite_main_text">"我最近在使用一款叫“朋友帮帮忙”的熟人互助问答应用，能从朋友那里得到很多靠谱的回答，也能给好朋友提供帮助。赶快下载来用一下吧:http://www.d3.com.cn/jelly/download/pengyoubang.apk"</string>
+    <string name="out_of_questions_invite_subject">发现一个好用的app，快下载来试一下!</string>
+    <string name="share_dialog_title">分享</string>
+    <string name="swipe_down_nux_text">"向下滑动查看更多问题"</string>
+    <string name="thank_you_from_string">From: %s</string>
+    <string name="thank_you_share_dialog_title">分享</string>
+    <string name="thank_you_to_string">To: %s</string>
+    <string name="top_nav_ask_question">提问</string>
+    <string name="top_nav_camera">返回</string>
+    <string name="top_nav_composition_text">提问</string>
+    <string name="top_nav_compose_invite_text">邀请朋友</string>
+    <string name="top_nav_crop_back">编辑</string>
+    <string name="top_nav_crop_photo">编辑照片</string>
+    <string name="top_nav_out_of_questions_text">没有新问题</string>
+    <string name="top_nav_single_question_title_yours">你的问题</string>
+    <string name="top_nav_use_photo">使用</string>
+    <string name="unloaded_notifications_bottom_line" />
+    <string name="unloaded_notifications_top_line">正在加载动态</string>
+    <string name="compose_question_text_view_hint">任何你想问的问题...</string>
+    <string name="compose_question_photo_view_hint">拍照提问...</string>
+    <string name="compose_question_map_view_hint">问地点...</string>
+    <string name="compose_question_search_image">搜索图片</string>
+    <string name="compose_question_link_chooser_hint">输入连接或搜索内容</string>
+    <string name="compose_question_search_location">搜索或长按地图选点</string>
+    <string name="no_more_activitys">没有更多动态了</string>
+    <string name="app_slogan">让问答更靠谱，让朋友更贴心！</string>
+    <!-- zenghui liananse 2014.05.10 -->
+    <string name="good_button_text">赞</string>
+    <string name="view_answer_button_text">查看回答</string>
+    <string name="answer_button_text">回答</string>
+    <string name="forward_button_text">求帮忙</string>
+    <string name="top_nav_back">返回</string>
+    <string name="top_nav_draw_title">用手指进行涂鸦</string>
+    <string name="top_nav_help_text">朋友，帮帮忙呗？</string>
+    <string name="top_nav_use_drawing">使用</string>
+    <string name="top_nav_send_question">发送</string>
+    <string name="share_button_text">分享给朋友</string>
+    <string name="cancel">取消</string>
+    <string name="top_nav_compose_answer">编辑答案</string>
+    <string name="answer_junk_drawer_title">操作</string>
+    <string name="junk_drawer_mute_user">屏蔽@%s的答案</string>
+    <string name="junk_drawer_low_quality_answer">不喜欢这个答案</string>
+    <string name="junk_drawer_low_quality_question">不喜欢这个问题</string>
+    <string name="junk_drawer_report">举报</string>
+    <string name="junk_drawer_delete_answer">删除这个回答</string>
+    <string name="junk_drawer_delete_question">删除这个问题</string>
+    <string name="junk_drawer_dialog_cancel">取消</string>
+    <string name="answer_thanked_text_hasThanked">已感谢</string>
+    <string name="question_junk_drawer_title">操作</string>
+    <string name="top_nav_notification_overlay">我</string>
+    <string name="top_nav_done">完成</string>
+    <string name="top_nav_thank_you_title">感谢卡</string>
+    <string name="settings_menu_row_label">设置</string>
+    <string name="top_nav_someones_question">的问题</string>
+    <string name="top_nav_user_no_name_name">其他人</string>
+    <string name="thanks_button_text">感谢</string>
+    <string name="notification_tab_activity">个人动态</string>
+    <string name="notification_tab_new_friend">新朋友</string>
+    <string name="notification_tab_friend">朋友</string>
+    <string name="first_follow_dialog_title">提示</string>
+    <string name="first_follow_dialog_message">点这个按钮表示你也同样关注这个问题，一旦有了新的答案我们会用通知的方式通知你。如果是自己的问题，表示问题已经被解决了，不在需要更多的回答。</string>
+    <string name="i_know_tips">我知道了</string>
+    
+    <string name="report_question_success">举报问题成功</string>
+    <string name="report_answer_success">举报答案成功</string>
+    <!-- zenghui liananse 2014.04.30 -->
+    <string name="login_select_dialog_tips">提示</string>
+    <string name="login_select_dialog_context">选择头像</string>
+    <string name="login_select_dialog_from_photo_album">从相册</string>
+    <string name="login_select_dialog_from_camera">从相机</string>
+    <string name="login_and_register_login">登录</string>
+    <string name="login_and_register_register">注册</string>
+    <string name="login_and_register_register_code">获取验证码</string>
+    <string name="login_and_register_login_code">重新获取</string>
+    <string name="login_username">手机号码</string>
+    <string name="login_password">密码</string>
+    <string name="login_new_password">新密码</string>
+    <string name="login_code">验证码</string>
+    <string name="login_password_and_code">密码</string>
+    <string name="login_back">返回</string>
+    <string name="login_title">登录</string>
+    <string name="login_code_title">验证码登录</string>
+    <string name="login_forget_password">忘记密码？使用手机验证码登录</string>
+    <string name="login_send_code_success">验证码已发送，请注意查收</string>
+    <string name="login_send_code_fail">发送验证码失败，请稍后再试</string>
+    <string name="register_check_code_fail">验证手机失败，请稍后再试</string>
+    <string name="register_title">注册</string>
+    <string name="register_next">下一步</string>
+    <string name="register_str">注册</string>
+    <string name="register_name">姓名</string>
+    <string name="register_pre">上一步</string>
+    <string name="register_no_mobile_tips">请输入手机号码</string>
+    <string name="login_no_code">请输入验证码</string>
+    <string name="register_no_password_tips">请输入密码</string>
+    <string name="register_no_code">请输入验证码</string>
+    <string name="register_no_new_password_tips">请输入新密码</string>
+    <string name="register_no_avatar">请上传头像</string>
+    <string name="register_no_name">请输入姓名</string>
+    <string name="register_not_mobile_tips">您输入的手机号格式错误，请核对准确</string>
+    <string name="register_not_password_tips">您输入的密码必须是6到16位，请核对准确</string>
+    <string name="register_step2_tips">请上传真实头像并填写真实姓名，与朋友更好的在朋友帮帮忙中互帮互助，见证彼此成长！</string>
+    <string name="register_step1_tips">朋友帮帮忙是一个熟人互助问答社区，因此我们使用手机号作为唯一的注册方式。
+        朋友帮帮忙会请求使用你的通讯录权限，方便你的通讯录朋友找到并回答你发的问题，你也可以看到朋友们发的问题并回答。
+	    通讯录仅作为匹配朋友使用，我们不会并且永远不会泄露您的手机号码及通信录中的朋友关系，
+	    只有当你与你的朋友经过双向确认才会将你的名字显示给朋友。如果您发现我们有暴露隐私的举动，
+	    请告知，我们将做出改善并做的更好！</string>
+    <string name="logout_dialog_title">提示</string>
+    <string name="logout_dialog_content">确定退出朋友帮帮忙吗？</string>
+    <string name="logout_dialog_comfirm">确定</string>
+    <string name="logout_dialog_cancel">取消</string>
+    
+    <string name="add_friend_list_item_add">添加</string>
+    <string name="add_friend_list_item_accept">接受</string>
+    <string name="add_friend_list_item_apply">已申请</string>
+    <string name="add_friend_list_item_added">已接受</string>
+    <!-- zenghui liananse 2014.05.07 -->
+    <string name="now">刚刚</string>
+    <string name="yesterday">昨天</string>
+    <string name="minutes_ago">%1$s分钟前</string>
+    <string name="hours_ago">%1$s小时前</string>
+    <string name="days_ago">%1$s天前</string>
+    <string name="ask_by_take_picture">拍照提问...</string>
+    <string name="ask_by_location">问地点...</string>
+    <string name="ask_by_other_question">任何你想问的问题...</string>
+    <string name="setting_noticesound_name">通知声音开关</string>
+    <string name="setting_noticesound_tips">关闭之后推送将没有声音</string>
+    <string name="setting_pushsetting_name">接收推送开关</string>
+    <string name="setting_pushsetting_tips">关闭之后将无法收到推送</string>
+    <string name="setting_logout_name">注销登录</string>
+    <string name="setting_logout_tips">清除数据并注销登录</string>
+    <string name="setting_back">返回</string>
+    <string name="setting_title">设置</string>
+    <string name="link_chooser_cancel">取消</string>
+    <string name="link_chooser_use">使用</string>
+    <string name="link_chooser_search">搜索</string>
+    <string name="notification_title">新动态</string>
+
+</resources>

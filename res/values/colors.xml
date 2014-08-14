@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="activity_bg">#29292A</color>
+    <color name="login_and_register_view_bg">#15ccf4</color>
+    <color name="answer_card_text_color">#ff000000</color>
+    <color name="black">#ff000000</color>
+    <color name="camera_lower_view_text_color">@color/white</color>
+    <color name="classy_turquoise">#ffb9ece3</color>
+    <color name="com_facebook_blue">#ff3b5998</color>
+    <color name="com_facebook_loginview_text_color">#ffffffff</color>
+    <color name="com_facebook_picker_search_bar_background">#fff5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#ffbcbdc2</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#ff000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#ffffffff</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#ffa6aed7</color>
+    <color name="complementary_orange">#ffff9f5b</color>
+    <color name="dark_teal">#0095ae</color>
+    <color name="deep_sea_teal">#ff3eae9e</color>
+    <color name="activity_title_unselected">#51a4b6</color>
+    <color name="thank_card_color">#39d4f5</color>
+    <color name="drawing_answer_color">@color/teal_marker</color>
+    <color name="drawing_question_color">@color/complementary_orange</color>
+    <color name="grape_jelly">#ff563a95</color>
+    <color name="link_text_color">@color/dark_teal</color>
+    <color name="login_eula_text_color">#ffaaaaac</color>
+    <color name="login_get_started_text_color">#ff000000</color>
+    <color name="login_text_color">#ffffffff</color>
+    <color name="main_background_color">#ff29292a</color>
+    <!-- <color name="muted_turquoise">#56BD83</color> -->
+    <color name="muted_turquoise">#39d4f5</color>
+    <color name="notification_context_connection_line_color">#b3ffffff</color>
+    <color name="notification_context_time_color">#80ffffff</color>
+    <color name="notification_divider_color">@color/slate</color>
+    <color name="nux_text_color">@color/white</color>
+    <color name="progress_circle_color">#3329292a</color>
+    <color name="question_answer_button_selected_text_color">@color/dark_teal</color>
+    <color name="question_answer_button_unselected_text_color">@color/slate</color>
+    <color name="question_card_main_text_color">#ff000000</color>
+    <color name="sienna">#ffb2520e</color>
+    <color name="slate">#ff29292a</color>
+    <color name="sliding_cards_answer_number">#0095ae</color>
+    <color name="social_context_connection_line_color">#80000000</color>
+    <color name="social_context_time_color">#b3000000</color>
+    <color name="spinner_view_background_color">#20000000</color>
+    <color name="swipe_down_nux_background_color">#5f58595a</color>
+    <color name="teal_marker">#ff00c3a7</color>
+    <color name="thank_you_card_text_color">#26334f</color>
+    <color name="top_card_not_editing_circle_color">@color/progress_circle_color</color>
+    <color name="top_card_not_editing_progress_color">@color/deep_sea_teal</color>
+    <color name="top_nav_modal_disabled_text_color">#ff7c7e7f</color>
+    <color name="top_nav_modal_text_color">@color/muted_turquoise</color>
+    <color name="top_nav_title_color">@color/white</color>
+    <color name="white">#ffffffff</color>
+    <!--  <color name="white_apha">#c8ffffff</color>-->
+    <color name="white_apha">#e6ffffff</color>
+    <color name="location_search_et_bg_color">#d6d6d6</color>
+    
+    <!-- zenghui 2014.04.30 -->
+    <color name="login_and_register_btn_color">#39d4f5</color>
+    <color name="login_and_register_btn_color_unavailable">#9a9a9a</color>
+    <color name="thanked_text_color">#16acc5</color>
+    
+    <color name="add_friend_btn_color">#30b1cc</color>
+    <color name="accept_friend_btn_color">#ea8f01</color>
+    <color name="apply_friend_btn_color">#47474c</color>
+    
+    <color name="apply_friend_text_color">#bebebe</color>
+    
+    <!-- wangpei-setting  -->
+    <color name="setting_split_line_color">#E1E1E1</color>
+    
+    <color name="link_chooser_title">#303133</color>
+    <color name="link_chooser_split_line_color">#1E1F21</color>
+    <color name="link_chooser_content">#282A29</color>
+    
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ask_map_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ask_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/link_chooser_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <AutoCompleteTextView
+            android:id="@+id/search_location_et"
+            style="@style/LinkChooserEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/link_chooser_et_bg"
+            android:drawableLeft="@drawable/search_icon"
+            android:drawablePadding="@dimen/link_chooser_search_padding"
+            android:gravity="left|center_vertical"
+            android:hint="@string/compose_question_search_location"
+            android:imeOptions="actionSearch"
+            android:padding="@dimen/link_chooser_search_padding"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/locate_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/link_chooser_horizontal_margin"
+            android:paddingLeft="@dimen/link_chooser_horizontal_margin"
+            android:paddingRight="@dimen/link_chooser_horizontal_margin"
+            android:paddingTop="@dimen/link_chooser_horizontal_margin"
+            android:src="@drawable/location_tag_icon" />
+
+        <ImageView
+            android:id="@+id/locate_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/link_chooser_horizontal_margin"
+            android:paddingLeft="@dimen/link_chooser_horizontal_margin"
+            android:paddingRight="@dimen/link_chooser_horizontal_margin"
+            android:paddingTop="@dimen/link_chooser_horizontal_margin"
+            android:src="@drawable/location_me_icon" />
+        
+        <TextView
+            android:id="@+id/locate_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/link_chooser_horizontal_margin"
+            android:text="@string/link_chooser_use"
+            android:textColor="@color/top_nav_modal_text_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/link_chooser_split_line_color" />
+
+</LinearLayout>
